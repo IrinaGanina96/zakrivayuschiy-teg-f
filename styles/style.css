@@ -144,7 +144,7 @@
 }
 
 .card__title {
-  font-weight: var(--title-font-weight);
+  font-variation-settings: 'wdth' var(--title-font-weight);
   font-size: 18px;
   line-height: 22px;
   padding: 4px 10px clamp(0.3125rem, 0.3565rem + -0.1878vw, 0.1875rem);
