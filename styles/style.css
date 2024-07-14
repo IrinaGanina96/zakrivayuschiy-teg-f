@@ -23,7 +23,7 @@
   margin-block-start: 100px;
   font-family: var(--main-font), sans-serif;
   font-style: normal;
-  font-variation-settings: 'wdth' var(--text-font-weight);
+  font-variation-settings: 'wght' var(--text-font-weight);
   background-color: var(--main-background);
   color: var(--accent-color);
   background-image: var(--cover-image);
@@ -144,7 +144,7 @@
 }
 
 .card__title {
-  font-variation-settings: 'wdth' var(--title-font-weight);
+  font-variation-settings: 'wght' var(--title-font-weight);
   font-size: 18px;
   line-height: 22px;
   padding: 4px 10px clamp(0.3125rem, 0.3565rem + -0.1878vw, 0.1875rem);
