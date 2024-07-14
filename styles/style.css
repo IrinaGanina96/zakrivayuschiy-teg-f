@@ -23,7 +23,7 @@
   margin-block-start: 100px;
   font-family: var(--main-font), sans-serif;
   font-style: normal;
-  font-variation-settings: 'wdth' var(--text-font-weight, 400);
+  font-variation-settings: 'wdth' var(--text-font-weight);
   background-color: var(--main-background);
   color: var(--accent-color);
   background-image: var(--cover-image);
@@ -59,7 +59,7 @@
   margin-block-end: 25px;
 }
 
-.theme-menu__list{
+.theme-menu__list {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -112,7 +112,7 @@
   transition: opacity 0.3s, transform 0.3s;
 }
 
-.theme-menu__button:focus-visible::after{
+.theme-menu__button:focus-visible::after {
   transform: scaleX(1);
 }
 
@@ -260,7 +260,7 @@
   transition: border 0.3s ease;
 }
 
-.card__floppy-button{
+.card__floppy-button {
   display: flex;
   flex-direction: column;
   justify-content: center;
