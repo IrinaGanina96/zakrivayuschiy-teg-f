@@ -189,7 +189,7 @@
 }
 
 .image__multiplicity {
-  filter: saturate(0.2) sepia(0.6) hue-rotate(0.3turn);
+  filter: saturate(0.2) sepia(0.5) hue-rotate(0.3turn);
 }
 
 .card__label {
