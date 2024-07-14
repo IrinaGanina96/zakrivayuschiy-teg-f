@@ -327,7 +327,7 @@
 }
 
 .window__save .floppy {
-  inline-size: 90px; 
+  inline-size: 90px;
 }
 
 @media (width>500px) {
@@ -344,6 +344,6 @@
   }
 
   .window__save .floppy {
-    inline-size: 80px; 
+    inline-size: 80px;
   }
 }
